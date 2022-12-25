@@ -12,7 +12,8 @@ class Calculadora(QMainWindow):
 
         self.display = QLineEdit()
         self.grid.addWidget(self.display, 0, 0, 1, 5)
-        self.display.setDisabled(True) #Desabilita a digitação no LineEdit
+        #Desabilita a digitação no LineEdit
+        self.display.setDisabled(True) 
         self.display.setStyleSheet(
             '* {background: #FFF; color: #000; font-size: 30px;}'
         )
